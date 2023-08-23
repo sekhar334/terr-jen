@@ -1,8 +1,8 @@
 provider "aws" {
-  region = "us-west-2"  # Change to your desired region
+  region = "us-east-1"  # Change to your desired region
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"
-  instance_type = "t2.micro"
+  ami           = "ami-08a52ddb321b32a8c"
+  instance_type = "t2.medium"
 }
